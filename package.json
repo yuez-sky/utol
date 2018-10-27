@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "tool for daily, interesting, practical",
   "main": "index.js",
+  "bin": {
+    "utol": "./bin/utol.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zysndy/utol/issues"
   },
-  "homepage": "https://github.com/zysndy/utol#readme"
+  "homepage": "https://github.com/zysndy/utol#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
