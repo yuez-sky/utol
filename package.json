@@ -1,6 +1,6 @@
 {
   "name": "utol",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tool for daily, interesting, practical",
   "main": "index.js",
   "bin": {
